@@ -109,32 +109,21 @@ a,p{
 #hero{
     height:100vh;
 }
-.menu-area{
-    background:whitesmoke;
-    text-align:center;
-    padding:1rem 0;
-    z-index:1000 !important;
-    position: relative;
+.sm-img{
+    display:none;
 }
-.menu li{
-    list-style:none;
-    display:inline-block;
-    padding:1rem;
-}
-.menu li a{
-    font-size:1.8rem;
-    text-decoration: none;
-    text-align:center;
+.nav-item a{
+    font-size:1.6rem;
     font-weight:600;
-    color:#222;
+    text-transform: uppercase;
+    margin:0 1rem;
+    text-decoration: none;
+    color:#333;
     transition:all 1s;
+    padding:1.5rem 0;
 }
-.menu li:hover a{
-    color:#ffe500;
-}
-
-.uk-sticky-fixed{
-    top:0 !important;
+.nav-item a:hover{
+    color:#ffe500 !important;
 }
 .swiper-container{
     position:relative;
